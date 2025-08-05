@@ -1,0 +1,211 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="24.7.6">
+  <diagram name="Page-1" id="88pS1vvj-CrvJGeudz4P">
+    <mxGraphModel dx="1283" dy="707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_siHTz1jLxp5POHfATAC-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_siHTz1jLxp5POHfATAC-1" target="_siHTz1jLxp5POHfATAC-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_siHTz1jLxp5POHfATAC-6" value="Receive Return Item" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_siHTz1jLxp5POHfATAC-3">
+          <mxGeometry x="0.7321" y="-2" relative="1" as="geometry">
+            <mxPoint x="-64" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_siHTz1jLxp5POHfATAC-1" value="WMS Receiver" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=9;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.user;" vertex="1" parent="1">
+          <mxGeometry x="20" y="250" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_siHTz1jLxp5POHfATAC-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_siHTz1jLxp5POHfATAC-2" target="_siHTz1jLxp5POHfATAC-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_siHTz1jLxp5POHfATAC-9" value="Item Received Event" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_siHTz1jLxp5POHfATAC-8">
+          <mxGeometry x="-0.14" y="-1" relative="1" as="geometry">
+            <mxPoint x="12" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_siHTz1jLxp5POHfATAC-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_siHTz1jLxp5POHfATAC-2" target="_siHTz1jLxp5POHfATAC-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_siHTz1jLxp5POHfATAC-2" value="Receiving Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="215.25" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_siHTz1jLxp5POHfATAC-4" value="Scan returned item&#39;s SKU" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="80" y="240" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_siHTz1jLxp5POHfATAC-5" value="Receive returned item at the warehouse" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="640" y="80" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_siHTz1jLxp5POHfATAC-7" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#E7157B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.queue;" vertex="1" parent="1">
+          <mxGeometry x="505.25" y="246.5" width="78" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="_siHTz1jLxp5POHfATAC-11" value="Publish" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="400.25" y="230" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_siHTz1jLxp5POHfATAC-12" value="- IsReturn: True&lt;br&gt;- SKU: ..." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="375.25" y="280" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_siHTz1jLxp5POHfATAC-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_siHTz1jLxp5POHfATAC-14" target="_siHTz1jLxp5POHfATAC-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_siHTz1jLxp5POHfATAC-16" value="Item Received Event" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=-90;" vertex="1" connectable="0" parent="_siHTz1jLxp5POHfATAC-15">
+          <mxGeometry x="-0.0852" y="-2" relative="1" as="geometry">
+            <mxPoint x="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_siHTz1jLxp5POHfATAC-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_siHTz1jLxp5POHfATAC-14" target="_siHTz1jLxp5POHfATAC-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_siHTz1jLxp5POHfATAC-25" value="Increase inventory" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_siHTz1jLxp5POHfATAC-23">
+          <mxGeometry x="0.0707" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_siHTz1jLxp5POHfATAC-14" value="Inventory Integrator" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFFFF;" vertex="1" parent="1">
+          <mxGeometry x="483.75" y="440" width="121" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_siHTz1jLxp5POHfATAC-17" value="Subscribe" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="505.25" y="355" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_siHTz1jLxp5POHfATAC-20" value="Update the item&#39;s inventory count" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="232.25" y="538" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_siHTz1jLxp5POHfATAC-21" value="Consumer" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="513.5" y="500" width="61.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_siHTz1jLxp5POHfATAC-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_siHTz1jLxp5POHfATAC-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="275.25" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_siHTz1jLxp5POHfATAC-22" value="Inventory Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="215.25" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_siHTz1jLxp5POHfATAC-26" value="REST API Call" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="375.25" y="440" width="61.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_siHTz1jLxp5POHfATAC-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_siHTz1jLxp5POHfATAC-29" target="_siHTz1jLxp5POHfATAC-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_siHTz1jLxp5POHfATAC-31" value="Item Received Event" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_siHTz1jLxp5POHfATAC-30">
+          <mxGeometry x="-0.1007" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_siHTz1jLxp5POHfATAC-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_siHTz1jLxp5POHfATAC-29" target="_siHTz1jLxp5POHfATAC-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_siHTz1jLxp5POHfATAC-29" value="Fulfillment Integrator" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFFFF;" vertex="1" parent="1">
+          <mxGeometry x="726.5" y="240" width="121" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_siHTz1jLxp5POHfATAC-32" value="Subscribe" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="240" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_siHTz1jLxp5POHfATAC-33" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.markup.curlyBrace;whiteSpace=wrap;strokeColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="45.25" y="200" width="460" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_siHTz1jLxp5POHfATAC-34" value="Inbound" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="245.25" y="170" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_siHTz1jLxp5POHfATAC-35" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.markup.curlyBrace;whiteSpace=wrap;strokeColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="583.25" y="200" width="416.75" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_siHTz1jLxp5POHfATAC-36" value="Outbound" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="761.62" y="170" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_siHTz1jLxp5POHfATAC-37" value="Consumer" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="758.75" y="300" width="61.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_siHTz1jLxp5POHfATAC-38" value="Queue(NATS)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="524.25" y="226.5" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_siHTz1jLxp5POHfATAC-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_siHTz1jLxp5POHfATAC-39" target="_siHTz1jLxp5POHfATAC-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_siHTz1jLxp5POHfATAC-50" value="Ready to fulfill &lt;br&gt;Notification event" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_siHTz1jLxp5POHfATAC-42">
+          <mxGeometry x="-0.1231" y="-1" relative="1" as="geometry">
+            <mxPoint x="11" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_siHTz1jLxp5POHfATAC-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_siHTz1jLxp5POHfATAC-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="787.5" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_siHTz1jLxp5POHfATAC-39" value="Fulfillment Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="727.5" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_siHTz1jLxp5POHfATAC-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="_siHTz1jLxp5POHfATAC-41" target="_siHTz1jLxp5POHfATAC-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_siHTz1jLxp5POHfATAC-41" value="Centrifugo Server" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF0080;fontColor=#FFFFFF;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1030" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_siHTz1jLxp5POHfATAC-44" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.48;entryY=1.02;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="_siHTz1jLxp5POHfATAC-53">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1149" y="470" as="sourcePoint" />
+            <mxPoint x="1265" y="285" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1265" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_siHTz1jLxp5POHfATAC-52" value="&lt;span style=&quot;font-size: 11px; text-wrap-mode: wrap; background-color: rgb(251, 251, 251);&quot;&gt;Fulfillment Expedite Channel&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=-90;fontColor=#0000FF;fontSize=11;" vertex="1" connectable="0" parent="_siHTz1jLxp5POHfATAC-44">
+          <mxGeometry x="0.402" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_siHTz1jLxp5POHfATAC-45" value="Websocket" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="470" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_siHTz1jLxp5POHfATAC-49" value="Query blocked orders missing only this item. If the return quantity can fully unblock any, select the longest-waiting order for fulfillment. if exist then unblock the order." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="652.5" y="540" width="275" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_siHTz1jLxp5POHfATAC-51" value="Fulfillment Expedite Channel" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#0000CC;" vertex="1" parent="1">
+          <mxGeometry x="900" y="490" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_siHTz1jLxp5POHfATAC-53" value="Fulfillment Operator" style="points=[[0.35,0,0],[0.98,0.51,0],[1,0.71,0],[0.67,1,0],[0,0.795,0],[0,0.65,0]];verticalLabelPosition=top;sketch=0;html=1;verticalAlign=bottom;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.user;fillColor=#005073;strokeColor=none;fontSize=9;horizontal=1;labelPosition=center;" vertex="1" parent="1">
+          <mxGeometry x="1241" y="230" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_siHTz1jLxp5POHfATAC-54" value="REST API Call" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="720" y="360" width="61.5" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="_siHTz1jLxp5POHfATAC-62" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;Evaluate Return for Order Fulfillment&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="737" y="356" width="100.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_siHTz1jLxp5POHfATAC-65" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="1026" y="428" width="16.8" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_siHTz1jLxp5POHfATAC-66" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="245.25" y="348" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_siHTz1jLxp5POHfATAC-68" value="Create" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="241" y="314" width="42.5" height="18.75" as="geometry" />
+        </mxCell>
+        <mxCell id="_siHTz1jLxp5POHfATAC-69" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;" vertex="1" parent="1">
+          <mxGeometry x="1032" y="619.5" width="50" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="_siHTz1jLxp5POHfATAC-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.429;entryY=-0.041;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.199;exitY=1.041;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="_siHTz1jLxp5POHfATAC-41" target="_siHTz1jLxp5POHfATAC-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_siHTz1jLxp5POHfATAC-71" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Database_PostgreSQL_Server.svg;" vertex="1" parent="1">
+          <mxGeometry x="763.5" y="610" width="48" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="_siHTz1jLxp5POHfATAC-72" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Database_PostgreSQL_Server.svg;" vertex="1" parent="1">
+          <mxGeometry x="250.75" y="609" width="48" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="_siHTz1jLxp5POHfATAC-73" value="Centrifugo App-level Sharding&lt;br style=&quot;font-size: 9px;&quot;&gt;Redis Engine" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="540" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_siHTz1jLxp5POHfATAC-74" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;" vertex="1" parent="1">
+          <mxGeometry x="1096" y="620.5" width="50" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="_siHTz1jLxp5POHfATAC-76" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.markup.curlyBrace;whiteSpace=wrap;strokeColor=#999999;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="1026" y="674" width="126" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_siHTz1jLxp5POHfATAC-77" value="Stand-alone instances" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="1059" y="694" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

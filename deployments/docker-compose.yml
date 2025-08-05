@@ -1,0 +1,61 @@
+services:
+  receiving-srv:
+    container_name: receiving-srv
+    image: receiving-service:latest
+    build:
+      context: ../
+      dockerfile: receivingsrv/build/Dockerfile
+    ports:
+      - 8080:8080
+    env_file: ../receivingsrv/build/.env
+    networks: ["nats", "srv-network", "pgdb"]
+  
+  inventory-srv:
+    container_name: inventory-srv
+    image: inventory-service:latest
+    build:
+      context: ../
+      dockerfile: inventorysrv/build/Dockerfile
+    ports:
+      - 8081:8081
+    env_file: ../inventorysrv/build/.env
+    networks: ["srv-network", "pgdb"] 
+  
+  fulfillment-srv:
+    container_name: fulfillment-srv
+    image: fulfillment-service:latest
+    build:
+      context: ../
+      dockerfile: fulfillmentsrv/build/Dockerfile
+    ports:
+      - 8082:8082
+    env_file: ../fulfillmentsrv/build/.env
+    networks: ["srv-network", "pgdb", "cenfgo"] 
+  
+  inventory-integrator:
+    container_name: inventory-integrator
+    image: inventory-integrator:latest
+    build:
+      context: ../
+      dockerfile: inventoryintegrator/build/Dockerfile
+    env_file: ../inventoryintegrator/build/.env
+    networks: ["nats", "srv-network"]
+
+  fulfillment-integrator:
+    container_name: fulfillment-integrator
+    image: fulfillment-integrator:latest
+    build:
+      context: ../
+      dockerfile: fulfillmentintegrator/build/Dockerfile
+    env_file: ../fulfillmentintegrator/build/.env
+    networks: ["nats", "srv-network"]
+
+networks:
+  nats:
+    external: true
+  pgdb:
+    external: true
+  cenfgo:
+    external: true
+  srv-network:
+    driver: bridge
