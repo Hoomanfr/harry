@@ -1,5 +1,11 @@
 Harry is a personal project exploring a microservices architecture to process returned items in a warehouse. It uses `NATS` for `messaging` and `Centrifugo` with `WebSockets` to notify fulfillment clients in real time, which helps unblock fulfillment items.
 
+## Architecture
+
+![Receive Returned Items Flow](docs/Receive%20Returned%20Items.jpg)
+
+## Getting Started
+
 checkout `Makefile` at the root and see how to run/stop all infra and services. as well as run/stop specific.
 
 use `docker exec -it <centrifugo_container>`
