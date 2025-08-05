@@ -16,7 +16,7 @@ copy the generated token and use it for the `CENTRIFUGO_TOKEN` in related `.env`
 
 in postman harry websocket after `connect` don't forge to run `send` after to listen to topics.
 
-in fulfillment service:
+## how to run
 
 for testing the following creates some item in fulfillment db to find some item to unblock:
 
