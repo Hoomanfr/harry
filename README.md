@@ -2,7 +2,7 @@ Harry is a personal project exploring a microservices architecture to process re
 
 ## Architecture
 
-![Receive Returned Items Flow](docs/Receive%20Returned%20Items.jpg)
+![Receive Returned Items Flow](docs/Receive%20Returned%20Items.png)
 
 ## Getting Started
 
